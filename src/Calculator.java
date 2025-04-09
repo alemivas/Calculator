@@ -1,3 +1,5 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Calculator {
@@ -21,6 +23,7 @@ public class Calculator {
         try {
             double result = calculate(operation, a, b);
             printResult(result);
+            saveHistoryToFile(operation, a, b, result);
         } catch (IllegalArgumentException e) {
             System.err.println("Ошибка: " + e.getMessage());
         }
@@ -51,5 +54,13 @@ public class Calculator {
 
     private void printResult(double result) {
         System.out.println("Результат: " + result);
+    }
+
+    private void saveHistoryToFile(String operation, double a, double b, double result){
+        try (FileWriter writer = new FileWriter("history.txt", true)) {
+            writer.write(a + operation + b + "=" + result + "\n");
+        } catch (IOException e) {
+            System.err.println("Ошибка записи: " + e.getMessage());
+        }
     }
 }
