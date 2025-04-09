@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48e2f9b7-28a9-45b8-bdfd-5cdda31d66aa" name="Changes" comment="Сделал калькулятор с базовыми арифметическими операциями">
+    <list default="true" id="48e2f9b7-28a9-45b8-bdfd-5cdda31d66aa" name="Changes" comment="Добавил Сохранение истории операций в файл">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744133811651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавил Сохранение истории операций в файл">
+      <option name="closed" value="true" />
+      <created>1744165642192</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744165642192</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал калькулятор с базовыми арифметическими операциями" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал калькулятор с базовыми арифметическими операциями" />
+    <MESSAGE value="Добавил Сохранение истории операций в файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил Сохранение истории операций в файл" />
   </component>
 </project>
